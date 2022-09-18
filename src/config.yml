@@ -1,0 +1,47 @@
+# Czas w minutach, po jakim ma sie usuwac grob
+TOMBSTONE_BANTIME: 60.0
+# Moc efektu od uderzenia specjalnym mieczem
+SWORD_EFFECT_AMF: 1
+# Czas efektu w sekundach od uderzenia specjalnym mieczem
+SWORD_EFFECT_TIME: 69
+# Czy kilof 3x3 ma byc uzywany
+PICKAXE33_ENABLED: true
+# Czy system grobow ma byc uzywany
+TOMBSTONE_ENABLED: true
+# Ile pkt kazdego skilla ma byc maksymalne do zdobycia
+STAT1_MAX_VAL: 200
+STAT2_MAX_VAL: 200
+STAT3_MAX_VAL: 200
+# Czy ma byc ban, gdy jeden z poziomu skilla osiagnie 0
+STAT1_BAN_VAL: true
+STAT2_BAN_VAL: true
+STAT3_BAN_VAL: true
+# Ile pkt kazdego skilla ma byc dawane na start
+STAT1_START_VAL: 200
+STAT2_START_VAL: 200
+STAT3_START_VAL: 200
+# Ile pkt kazdego skilla ma byc dawane po odrodzeniu
+STAT1_RESTORE_VAL: 100
+STAT2_RESTORE_VAL: 100
+STAT3_RESTORE_VAL: 100
+# Ile pkt kazdego skilla ma byc dawane na start
+STAT1_INS_VAL: 100
+STAT2_INS_VAL: 100
+STAT3_INS_VAL: 100
+# Szansa w % na drop mysteryitemu po smierci
+ITEM_MYSTERY_CHANCE: 60.0
+# Mysteryitem
+ITEM_MYSTERY:
+  ==: org.bukkit.inventory.ItemStack
+  v: 3105
+  type: BOOK
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"MYSTERY
+      BOOK"}],"text":""}'
+    lore:
+    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"JAKIES
+      LORE 1"}],"text":""}'
+    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"aqua","text":"JAKIES
+      LORE 2"}],"text":""}'
